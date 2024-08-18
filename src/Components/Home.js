@@ -5,6 +5,7 @@ import './Home.css';
 import axios from 'axios';
 import { useDispatch } from 'react-redux';
 import { setBooks } from '../Redux/actions';
+import Footer from './Footer';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -65,6 +66,7 @@ const url = 'https://bookstore-backend-3da6.onrender.com/api/books'
           ))}
         </div>
       </main>
+      <Footer/>
     </div>
   );
 };

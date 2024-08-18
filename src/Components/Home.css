@@ -10,7 +10,7 @@
   .Home main {
     padding: 2em;
     background: linear-gradient(blue, 10%, pink);
-    height:100vh;
+  
   }
   
   .books-container {
@@ -53,7 +53,7 @@
   .add-to-cart,
   .view-details {
     background-color:blue;
-    color: black;
+    color:white;
     border: none;
     padding: 0.5em 1em;
     cursor: pointer;
@@ -62,7 +62,8 @@
   
   .add-to-cart:hover,
   .view-details:hover {
-    background-color: #218838;
+    background-color: #a38193;
+    color:black;
   }
   .book-img {
     width:100%; 
@@ -70,4 +71,5 @@
     display: block;
     margin-bottom: 10px;
   }
+    
   
