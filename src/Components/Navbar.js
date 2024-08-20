@@ -14,6 +14,9 @@ const Navbar = () => {
       
       <div className="navbar-links">
         <Link to="/" className="navbar-link">Home</Link>
+        <Link to="/form-page" className="navbar-link">
+          <button className="navbar-button">Go to Admin</button>
+        </Link>
         <div className="navbar-cart">
           <Link to="/cart" className="navbar-link">
             <i className="bi bi-cart-fill"></i>         

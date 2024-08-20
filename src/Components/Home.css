@@ -50,15 +50,16 @@
      margin-bottom:1.5em;
   }
   
-  .add-to-cart,
-  .view-details {
+  .add-to-cart, .view-details {
+    
     background-color:blue;
     color:white;
     border: none;
     padding: 0.5em 1em;
     cursor: pointer;
-    margin-top: 0.5em;
+    margin-top:4em;
   }
+  
   
   .add-to-cart:hover,
   .view-details:hover {
@@ -71,5 +72,3 @@
     display: block;
     margin-bottom: 10px;
   }
-    
-  
