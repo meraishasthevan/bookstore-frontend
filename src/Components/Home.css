@@ -57,7 +57,11 @@
     border: none;
     padding: 0.5em 1em;
     cursor: pointer;
+<<<<<<< HEAD
     margin-top:4em;
+=======
+    margin-top: 4.5em;
+>>>>>>> 079ad57dc660cdd04a1fcceff9d3b40556e98f1f
   }
   
   
@@ -72,3 +76,8 @@
     display: block;
     margin-bottom: 10px;
   }
+<<<<<<< HEAD
+=======
+    
+  
+>>>>>>> 079ad57dc660cdd04a1fcceff9d3b40556e98f1f
